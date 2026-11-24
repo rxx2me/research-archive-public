@@ -1,0 +1,3 @@
+context,setting,model,roc_auc,roc_auc_ci_low,roc_auc_ci_high,pr_auc,pr_auc_ci_low,pr_auc_ci_high,positive_rows,negative_rows,bootstrap_B,bootstrap_type
+directory_protocol,dedup_on,ocsvm,0.9999998895716238,0.999999763275398,0.9999999876124658,0.9999999950516132,0.9999999893901524,0.9999999994452906,1612111,72193,200,stratified_row_resampling_by_class_on_scores
+attack_only_excluding_benign,dedup_on,ocsvm,0.9999998878137978,0.9999997291704377,0.9999999915134551,0.9999999948527727,0.9999999875705565,0.9999999996108972,1574504,72193,200,stratified_row_resampling_by_class_on_scores

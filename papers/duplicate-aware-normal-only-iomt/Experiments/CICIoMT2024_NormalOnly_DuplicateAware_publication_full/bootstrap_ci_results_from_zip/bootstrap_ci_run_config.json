@@ -1,0 +1,16 @@
+{
+  "source_info": {
+    "mode": "zip",
+    "path": "/content/drive/MyDrive/IoMT_Project/Experiments/CICIoMT2024_NormalOnly_DuplicateAware_publication_full/publication_full_20260506_013718.zip",
+    "drive_output_parent": "/content/drive/MyDrive/IoMT_Project/Experiments/CICIoMT2024_NormalOnly_DuplicateAware_publication_full"
+  },
+  "results_root_used": "/content/bootstrap_ci_work/extracted_results",
+  "output_parent": "/content/drive/MyDrive/IoMT_Project/Experiments/CICIoMT2024_NormalOnly_DuplicateAware_publication_full/bootstrap_ci_results_from_zip",
+  "count_bootstrap_B": 2000,
+  "run_score_based_auc_ci": true,
+  "score_bootstrap_B": 200,
+  "target_setting": "dedup_on",
+  "target_model": "ocsvm",
+  "random_seed": 42,
+  "bootstrap_ci_note": "Threshold metrics use multinomial resampling over observed confusion-matrix categories. Score metrics use stratified row resampling by class over anomaly_score."
+}

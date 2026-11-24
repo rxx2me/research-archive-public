@@ -1,0 +1,5 @@
+# Store large original experimental data with Git LFS.
+papers/**/DataSet/**/*.pcap filter=lfs diff=lfs merge=lfs -text
+papers/**/DataSet/**/*.csv filter=lfs diff=lfs merge=lfs -text
+papers/**/Experiments/**/*.zip filter=lfs diff=lfs merge=lfs -text
+papers/duplicate-aware-normal-only-iomt/Experiments/CICIoMT2024_NormalOnly_DuplicateAware_publication_full/bootstrap_ci_results_from_zip/bootstrap_ci_results_20260507_000824.zip -filter -diff -merge
